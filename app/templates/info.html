@@ -1,0 +1,22 @@
+{% extends "templates/index.html" %} {% block title %} About {% endblock %}{% block main %}
+<div class="container">
+    <h1>
+        About
+    </h1>
+    <p>
+        </br>
+    </p>
+    <p>
+        <br> Developed by:<br>
+    </p>
+    <img src="{{ url_for('static', filename='img/solar.png') }}" alt="sol" class="center">
+    <br><br> <br><br>
+    <p>
+        <center>
+            <h4>Grupo de Investigación de la Orinoquía.</h4>
+            <h5>Universidad Nacional de Colombia.</h5>
+        </center>
+    </p>
+
+</div>
+{% endblock %} {% block script %}{% endblock %}

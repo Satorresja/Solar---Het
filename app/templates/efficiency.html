@@ -1,0 +1,17 @@
+{% extends "templates/indexgraph.html" %} {% block title %}
+Graphics
+{% endblock %} {% block main %}
+<div class="container">
+    <h2>
+        Success!
+    </h2>
+    <div class="container">
+        <img src="{{ graph1 }}" alt="Chart" height="100%" width="100%">
+    </div>
+    <!-- and the comment closes with
+    <form method="post" action="/jccurve">
+        <input type="submit" name="download" value="Download" class="center">
+    </form>
+    //-->
+</div>
+{% endblock %} {% block script %}{% endblock %}

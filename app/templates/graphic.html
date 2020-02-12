@@ -1,0 +1,22 @@
+{% extends "templates/indexgraph.html" %} {% block title %} Graphics {% endblock %} {% block main %}
+<div class="container">
+    <h2>
+        Success!
+    </h2>
+    <div class="container">
+        <img src="{{ graph1 }}" alt="Chart" height="100%" width="100%">
+        <div class="row">
+            <div class="col">
+                <img src="{{ graph2 }}" alt="Chart" height="100%" width="100%">
+            </div>
+            <div class='col'>
+                <img src="{{ graph3 }}" alt="Chart" height="100%" width="100%">
+            </div>
+        </div>
+        <!--
+        <form method="post" action="/jccurve">
+            <input type="submit" name="data" value="Download DATA" class="center">
+        </form> -->
+    </div>
+</div>
+{% endblock %} {% block script %}{% endblock %}
