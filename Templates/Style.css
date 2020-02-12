@@ -1,0 +1,17 @@
+body {
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+}
+
+
+/* Create two equal columns that sits next to each other */
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
